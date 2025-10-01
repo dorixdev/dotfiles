@@ -59,7 +59,7 @@ My personal configurations (dotfiles) for a productive and pleasant development 
 - Modify `install.conf.yaml` to add or remove symlinks.
 - If there is any configuration file you don't want, delete or comment it out in `install.conf.yaml`.
 
-## 🧾 Licencia
+## 🧾 License
 
 MIT License
 
