@@ -1,0 +1,30 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.antigenrc: antigenrc
+    ~/.Brewfile: Brewfile
+    ~/.bash_profile: bash_profile
+    ~/.gitconfig: gitconfig
+    ~/.npmrc: npmrc
+    ~/.p10k.zsh: p10k.zsh
+    ~/.profile: profile
+    ~/.vimrc: vimrc
+    ~/.zprofile: zprofile
+    ~/.zshaliases: zshaliases
+    ~/.zshenv: zshenv
+    ~/.zshrc: zshrc
+
+- shell:
+    - command: |
+        if ! brew bundle check --file="~/.Brewfile"; then
+          brew bundle install --file="~/.Brewfile"
+        fi
+      description: "Install Homebrew packages"
+
+    - command: git submodule update --init --recursive
+      description: "Updating submodules"

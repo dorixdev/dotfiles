@@ -1,0 +1,23 @@
+# Load oh-my-zsh library
+antigen use oh-my-zsh
+
+antigen bundles <<EOBUNDLES
+	command-not-found
+	git
+	git-extras
+	git-flow
+	git-flow-avh
+	lukechilds/zsh-nvm
+	Sparragus/zsh-auto-nvm-use
+	sudo
+	unixorn/autoupdate-antigen.zshplugin
+	zsh-users/zsh-autosuggestions
+	zsh-users/zsh-completions
+	zsh-users/zsh-syntax-highlighting
+EOBUNDLES
+
+THEME=romkatv/powerlevel10k
+
+antigen list | grep $THEME; if [ $? -ne 0 ]; then antigen theme $THEME; fi
+
+antigen apply

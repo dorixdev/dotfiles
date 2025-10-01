@@ -1,0 +1,4 @@
+alias ls="lsd"
+alias ff="fastfetch"
+alias st="speedtest --secure"
+alias brewfile="brew bundle dump --file=~/.Brewfile --force --no-vscode"
