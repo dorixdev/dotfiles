@@ -10,7 +10,6 @@
     ~/.Brewfile: Brewfile
     ~/.bash_profile: bash_profile
     ~/.gitconfig: gitconfig
-    ~/.npmrc: npmrc
     ~/.p10k.zsh: p10k.zsh
     ~/.profile: profile
     ~/.vimrc: vimrc
