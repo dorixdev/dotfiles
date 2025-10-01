@@ -15,6 +15,7 @@ My personal configurations (dotfiles) for a productive and pleasant development 
 - **Xcode Command Line Tools**: installed (run `xcode-select --install` if not already installed)
 - **Homebrew**: installed (see [https://brew.sh/](https://brew.sh/))
 - **Git**: configured globally
+- **SDKMAN!**: installed (for managing Java versions, see [https://sdkman.io/install](https://sdkman.io/install))
 
 ## ⚙️ Installation
 
