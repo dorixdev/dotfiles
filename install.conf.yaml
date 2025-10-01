@@ -8,10 +8,8 @@
 - link:
     ~/.antigenrc: antigenrc
     ~/.Brewfile: Brewfile
-    ~/.bash_profile: bash_profile
     ~/.gitconfig: gitconfig
     ~/.p10k.zsh: p10k.zsh
-    ~/.profile: profile
     ~/.vimrc: vimrc
     ~/.zprofile: zprofile
     ~/.zshaliases: zshaliases
