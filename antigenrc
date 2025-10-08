@@ -8,6 +8,7 @@ antigen bundles <<EOBUNDLES
 	git-flow
 	git-flow-avh
 	lukechilds/zsh-nvm
+  matthieusb/zsh-sdkman
 	Sparragus/zsh-auto-nvm-use
 	sudo
 	unixorn/autoupdate-antigen.zshplugin
