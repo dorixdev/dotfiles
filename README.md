@@ -60,6 +60,16 @@ My personal configurations (dotfiles) for a productive and pleasant development 
 - Modify `install.conf.yaml` to add or remove symlinks.
 - If there is any configuration file you don't want, delete or comment it out in `install.conf.yaml`.
 
+## 🔄 Updating
+
+To update your dotfiles, simply pull the latest changes from your forked repository and re-run the install script:
+
+```bash
+cd ~/dotfiles
+git pull origin main
+./install
+```
+
 ## 🧾 License
 
 MIT License
